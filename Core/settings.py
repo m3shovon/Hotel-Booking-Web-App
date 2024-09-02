@@ -34,7 +34,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'App_Customer','App_Admin',
+    'App_Hotel',
+    'App_Auth',
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
@@ -84,7 +85,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Core.wsgi.application'
 
-AUTH_USER_MODEL = 'App_Customer.CustomUser'
+# AUTH_USER_MODEL = 'App_Customer.CustomUser'
 
 
 # Database
