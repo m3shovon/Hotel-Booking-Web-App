@@ -17,11 +17,11 @@ django-js-asset
 django-tempus-dominus
 
 ### Mysql Server
-mysqlclient
+# mysqlclient
 # mysql-server
 
 ### PostgreSQL Server
-psycopg2
+# psycopg2
 # pytz
 
 ### WEB3 Integration
@@ -71,8 +71,8 @@ python-decouple
 
 # PostgreSQL Database
 
-psycopg2
-psycopg2-binary
+# psycopg2
+# psycopg2-binary
 
 djangorestframework
 djangorestframework-simplejwt

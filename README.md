@@ -1,16 +1,54 @@
-# Dynamix
+# Hotel Booking App
 
-<!-- Installing  -->
-$ python -m venv venv
+Virtual Environment Set Up
 
-$ pip install -r requirements.txt
+```
+python -m venv venv
+```
+Virtual Activation[Linux]
 
-$ python manage.py migrate
-$ python mangage.py makemigrations
-$ python manage.py migrate
+```
+source venv/bin/activate
+```
+Virtual Activation With Git Bash[Windows]
 
-$ python manage.py runserver
+```
+source venv/scripts/activate
+```
+Install Files
 
+```
+pip install -r requirements.txt
+```
+Migrate
+
+```
+python manage.py migrate
+```
+
+Migrations
+
+```
+python manage.py makemigrations
+```
+
+Create Superuser
+
+```
+python manage.py createsuperuser
+```
+
+Run Project
+
+```
+python manage.py runserver
+```
+
+========== Or ==============
+
+```
+bash run.sh
+```
 
 <!-- SECURITY -->
 $ python manage.py check --deploy
