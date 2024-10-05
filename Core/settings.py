@@ -85,7 +85,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Core.wsgi.application'
 
-# AUTH_USER_MODEL = 'App_Customer.CustomUser'
+AUTH_USER_MODEL = 'App_Auth.User'
 
 
 # Database
@@ -134,7 +134,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Dhaka'
 
 USE_I18N = True
 
